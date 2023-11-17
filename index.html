@@ -1,109 +1,210 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Augusto Camaño 9-757-2478, Parcial 2 de Tecnologia Web 1 - Año 2023</title>
-	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-        <h1>Life Sport - Tu Portal Deportivo</h1>
-		<img src="lofo.gif" alt="Live Sport Logo" width="250">
-        <nav>
-            <ul>
-               
-				 <p><a href="Noticias.html">Noticias</a></p>
-                <p><a href="TABLA_LIGAS.html">Tabla de puntos</a></p>
-                <li><a href="#contacto">Contacto</a></li>
-             
-            </ul>
-        </nav>
+        <div class="menu container">
+
+            <a href="#" class="logo">logo</a>
+            <input type="checkbok" id="menu">
+            <label for="menu">
+                <img src="images/menu-btn.png" class="menu-icono" alt="">
+            </label>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Porfolio</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-content container">
+            <div class="content">
+                <h1>Pagina de Augusto </h1>
+                <p>
+                    Hola Profe
+                </p>
+                <a href="#" class="btn-1">Mas informacion</a>
+                <a href="#" class="btn-1">Mas informacion</a>
+
+            </div>
+            <img src="images/astronauta.png" alt="">
+
+        </div>
     </header>
+    <main class="services container">
+        <div class="service">
+            <img src="images/icon1.svg" alt="">
+            <h3>servicio 1 </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti soluta repellat praesentium nihil.
+                Nostrum quis, voluptates neque rerum non ipsa et delectus reiciendis fugit laboriosam facere asperiores!
+                Accusantium, porro dolor?
 
-    <div class="contenedor">
-        <section id="noticias">
-            <h2>Últimas Noticias</h2>
-            <article>
-                <img src="noticia1.jpg" alt="Noticia 1" style="max-width: 40%; height: 40%;">
-                <h3>OFICIAL: Neymar sufre la peor lesión de su vida y este es el tiempo que estará de baja el brasileño</h3>
-                <p>“El atacante de la selección brasileña y del Al-Hilal, de Arabia Saudita, pasó por exámenes clínicos y de imagen que confirmaron la ruptura del ligamento cruzado anterior y de menisco de la rodilla izquierda”, dijo la CBF en una nota de prensa.
-                El delantero se lesionó durante la derrota de Brasil ante Uruguay (2-0) el martes en Montevideo, en un partido por la clasificación para el Mundial de 2026. Será baja de 7-8 meses, según su evolución después de la cirugía.</p>
-                <a href="https://www.infobae.com/colombia/2023/10/18/confirman-la-gravedad-de-la-lesion-de-neymar-jugara-contra-colombia/">Leer más</a>
-            </article>
-            <article>
-                <img src="postemp.jpg" alt="Noticia 2" style="max-width: 40%; height: 40%;">
-                <h3>Quien sera el Campeon?</h3>
-                <p>El 2023 ha sido un año de mucho béisbol en Estados Unidos y Canadá. Cada una de las novenas de la MLB ha trazado su camino para llegar lo más lejos posible, pero sólo los mejores tendrán acceso a la parte más importante de la temporada en sí: los playoffs 2023. 
+            </p>
 
-                Para ello, seis equipos por cada circuito (un grupo de la Liga Americana y otro por la Liga Nacional). Es decir, los campeones de cada División, además de tres Comodines, jugarán esta etapa.
+        </div>
+        <div class="service">
+            <img src="images/icon2.svg" alt="">
+            <h3>servicio 2 </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti soluta repellat praesentium nihil.
+                Nostrum quis, voluptates neque rerum non ipsa et delectus reiciendis fugit laboriosam facere asperiores!
+                Accusantium, porro dolor?
 
-                El último sembrado en los Comodines disputa una serie de tres encuentros ante mejor tercero entre los monarcas, mientras que el Comodín 1-2 definen la otra llave.</p>
-                <a href="https://espndeportes.espn.com/beisbol/nota/_/id/12548532/mlb-septiembre-predicciones-serie-mundial-carreras-de-playoffs-mvp-cy-young">Leer más</a>
-            </article>
-            <article>
-                <img src="noticia3.jpg" alt="Noticia 3" style="max-width: 40%; height: 40%;">
-                <h3>Otra vez el GOAT!!</h3>
-                <p>Con sus dos goles con Portugal a Bosnia Herzegovina, el delantero de 38 años logró superar la línea de Erling Haaland como máximo artillero en este año calendario.</p>
-                <a href="https://www.larazon.es/deportes/cristiano-ronaldo-maximo-goleador-2023_20231017652e6952a3bb2e0001601d74.html">Leer más</a>
-            </article>
-        </section>
+            </p>
 
-        <section id="resultados">
-            <h2>Resultados destacados</h2>
-            <table border="1" style="border-collapse: collapse; width: 100%;">
-                <tr>
-                    <th style="padding: 8px;">Equipo Local</th>
-                    <th style="padding: 8px;">Finalizado</th>
-                    <th style="padding: 8px;">Equipo Visitante</th>
-                </tr>
-                <tr>
-                    <td style="padding: 8px;">Venezuela</td>
-                    <td style="padding: 8px;">3-0</td>
-                    <td style="padding: 8px;">Chile</td>
-                </tr>
-                <tr>
-                    <td style="padding: 8px;">Uruguay</td>
-                    <td style="padding: 8px;">2-0</td>
-                    <td style="padding: 8px;">Brasil</td>
-                </tr>
-                <tr>
-                    <td style="padding: 8px;">Panama</td>
-                    <td style="padding: 8px;">3-0</td>
-                    <td style="padding: 8px;">Guatemala</td>
-                </tr>
-            </table>
-        </section>
+        </div>
+        <div class="service">
+            <img src="images/icon3.svg" alt="">
+            <h3>servicio 3 </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti soluta repellat praesentium nihil.
+                Nostrum quis, voluptates neque rerum non ipsa et delectus reiciendis fugit laboriosam facere asperiores!
+                Accusantium, porro dolor?
 
-      
-		 <section>
-        <h2>Futuros eventos deportivos que captan la atencion del Mundo</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/NUK3H6VI8lM" frameborder="0" allowfullscreen></iframe>
-        <audio controls>
-            <source src="audio_parcial.mp3" type="audio/mpeg">
-           
-        </audio>
+            </p>
+
+        </div>
+        <div class="service">
+            <img src="images/icon4.svg" alt="">
+            <h3>servicio 4 </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti soluta repellat praesentium nihil.
+                Nostrum quis, voluptates neque rerum non ipsa et delectus reiciendis fugit laboriosam facere asperiores!
+                Accusantium, porro dolor?
+
+            </p>
+
+        </div>
+
+    </main>
+    <section class="porfolios container">
+        <h2>porfolio</h2>
+        <div class="porfolio">
+
+            <img src="images/img1.png" alt="">
+            <div class="porfolio-1">
+
+                <h3>porfolio 1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem explicabo ea voluptate neque
+                    odio temporibus ab deserunt. Enim numquam quos tempore excepturi rem aliquid corporis amet
+                    dignissimos, culpa odit?
+
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+
+        </div>
+
+        <div class="porfolio">
+
+
+            <div class="porfolio-2">
+
+                <h3>porfolio 2</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem explicabo ea voluptate neque
+                    odio temporibus ab deserunt. Enim numquam quos tempore excepturi rem aliquid corporis amet
+                    dignissimos, culpa odit?
+
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+            <img src="images/img2.png" alt="">
+        </div>
+
+        <div class="porfolio">
+
+            <img src="images/img3.png" alt="">
+            <div class="porfolio-1">
+
+                <h3>porfolio 3</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem explicabo ea voluptate neque
+                    odio temporibus ab deserunt. Enim numquam quos tempore excepturi rem aliquid corporis amet
+                    dignissimos, culpa odit?
+
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+
+        </div>
+
+        <div class="porfolio">
+
+
+            <div class="porfolio-2">
+
+                <h3>porfolio 4</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis rem explicabo ea voluptate neque
+                    odio temporibus ab deserunt. Enim numquam quos tempore excepturi rem aliquid corporis amet
+                    dignissimos, culpa odit?
+
+                </p>
+                <a href="#" class="btn-2">Informacion</a>
+            </div>
+            <img src="images/img4.png" alt="">
+        </div>
     </section>
 
-        <section id="contacto">
-            <!-- Contenido de contacto -->
-            <h2>Contacto</h2>
-            <form>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-                <label for "mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="3"></textarea>
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
-
-        <section>
-            <!-- Contenido de futuros eventos deportivos -->
-        </section>
-    </div>
-
     <footer>
-        <p>Derechos de autor © 2023 Life Sport</p>
-    </footer>
+        <div class="container">
+            <div class="info">
+                <div class="info-content">
+                    <div class="info-price">
+                        <h2>Costo</h2>
+                        <p class="price">$3500</p>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Rem dicta nisi dolorum incidunt
+                            dolores iusto, provident possimus cumque est consectetur quae iure eum quod voluptatibus
+                            laudantium beatae itaque esse numquam.
+                        </p>
+
+                    </div>
+
+                    <div class="info-txt">
+                        <h2>princing list</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus doloribus, deserunt
+                            mollitia nobis quo quia sequi aut accusantium veritatis distinctio dolore dignissimos unde
+                            sapiente animi non, dolorum ratione dicta maiores.
+                        </p>
+                     <a href="#" class="btn-1">Informacion</a>
+
+                  </div>
+
+                </div>
+<hr>
+<div class="enlaces">
+<h3>logo</h3>
+<div class="enlace">
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a></li>
+    <li><a href="#">lorem</a></li>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</footer>
 </body>
+
 </html>
