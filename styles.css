@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url('IMAGENESPARASEMSTRAL/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: rgba(20, 59, 230, 0.418);
+    color: white;
+    text-align: center;
+    padding: 4.2em;
+    position: relative;
+    font-family: 'Cinzel Decorative', sans-serif; /* Aplicamos la fuente al encabezado */
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Bree Serif', sans-serif; /* Aplicamos la fuente deseada a h1 */
+}
+
+header img {
+    float: left;
+    margin-right: 10px;
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px; /* Ajusta esta propiedad según tu preferencia */
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Cinzel Decorative', sans-serif; /* Aplicamos la fuente al título principal */
+}
+
+img {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #5b6063cb;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #00506b;
+    border-bottom: 2px solid #00364a;
+}
+
+.dropdown button {
+    width: 150px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'calibri', sans-serif;
+}
+.contenedor p {
+    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+
+.contenedor h2 {
+    font-size: 24px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-family: 'Kalnia', sans-serif; /* Aplicamos la fuente a los títulos de segundo nivel */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(211, 204, 204, 0.644);
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ec0c0c9f;
+    color: white;
+}
+
+footer {
+    background-color: rgba(15, 15, 15, 0.562);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #ba0000;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #ba0000;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.87);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #fafafa;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #0c0c0c;
+}
+.contacto-container {
+    background-color: #1101f033;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.842);
+    text-align: center;
+}
+
+.info-contacto {
+    list-style-type: none;
+    padding: 0;
+}
+
+.info-contacto li {
+    margin-bottom: 15px;
+}
+
+.info-contacto strong {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    color: #1a1818;
+}
+
+#contacto h2 {
+    color: #080808;
+    font-family: 'Kalnia', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contenedor.contacto-container {
+    font-family: 'TuTipoDeLetra', sans-serif; /* Reemplaza 'TuTipoDeLetra' con el nombre de la fuente que desees utilizar */
+}
+
+.contenedor.contacto-container p,
+.contenedor.contacto-container ul.info-contacto li {
+    font-family: 'TuTipoDeLetra', sans-serif; /* Asegúrate de aplicar el mismo tipo de letra al texto dentro del contenedor */
+}

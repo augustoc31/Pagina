@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('IMAGENESPARASEMSTRAL/fontoestrellado.jpg');
+            background-size: cover;
+            overflow-x: hidden;
+            
+        }
+
+
+        
+
+        h1 {
+            text-align: center;
+            color: #fff9f9;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        article {
+            width: 300px;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+        }
+
+        h2 {
+            color: #1f497d;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        p {
+            color: #333;
+            margin: 10px 0;
+        }
+
+        a {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: #0c0cdaad;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #800f0f;
+        }
+
+
+        .dropdown button {
+    width: 150px;
+}
+
+
+        .dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.87);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #fafafa;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #ffffff;
+    background-color: #0c0c0c;
+}
+
+footer {
+            background-color: #f8f9faab;
+            color: #181717;
+            text-align: center;
+            padding: 10px;
+           
+            width: 100%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>Últimas Noticias</h1>
+   
+    <nav>
+        <div class="dropdown">
+            <button>INICIO</button>
+            <div class="dropdown-content">
+                <a href="index.html">Pagina principal</a>
+                <a href="tablita.html">Tabla de puntos</a>
+                <a href="mapasw.html">Mapa Sitio Web</a>
+                <a href="formulario_ayuda.html">Ayuda</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <article>
+            <img src="IMAGENESPARASEMSTRAL/noticia1.webp" alt="Noticia 1">
+            <h2>Copa Mundial 2026: Ciudades anfitrionas y fechas anunciadas</h2>
+            <p>La FIFA ha revelado las ciudades anfitrionas y las fechas para la Copa Mundial de la FIFA 2026. Será la primera vez que el torneo se celebre en tres países: Estados Unidos, Canadá y México.</p>
+            <a href="https://www.fifa.com/fifaplus/es/tournaments/mens/worldcup/canadamexicousa2026">Sigue leyendo</a>
+        </article>
+
+        <article>
+            <img src="IMAGENESPARASEMSTRAL/notician2.jpg" alt="Noticia 2">
+            <h2>Ohtani, el fenómeno que aspira a cobrar 600 millones</h2>
+            <p>El japonés, único capaz en la MLB de lanzar y batear como los mejores, puede superar el contrato de Messi con el Barça. "Es muy complicado hacer las dos cosas al más alto nivel", afirma el experto Fernando Díaz.</p>
+            <a href="https://www.elmundo.es/deportes/mas-deporte/2023/12/03/656cb5c021efa02e708b45d3.html">Sigue leyendo</a>
+        </article>
+
+        <article>
+            <img src="IMAGENESPARASEMSTRAL/notician3.webp" alt="Noticia 3">
+            <h2>Doncic hace historia en la primera parte con un triple-doble de 29 puntos</h2>
+            <p>Luka Doncic logra un triple-doble histórico en la primera parte del Mavs-Jazz anotando 29 puntos, 10 rebotes y 10 asistencias.</p>
+            <a href="https://www.hispanosnba.com/noticias/2023/12/07/doncic-hace-historia-primera-parte-triple-doble-29-puntos">Sigue leyendo</a>
+        </article>
+
+        <article>
+            <img src="IMAGENESPARASEMSTRAL/notician4.jpeg" alt="Noticia 4">
+            <h2>Salón de la Fama del Boxeo abre sus puertas para el boricua Calderón</h2>
+            <p>Michael Moorer, Ricky Hatton e Iván Calderón ingresan al Salón de la Fama del Boxeo Internacional.</p>
+            <a href="https://www.diariolasamericas.com/deportes/salon-la-fama-del-boxeo-abre-sus-puertas-el-boricua-calderon-n5347886">Sigue leyendo</a>
+        </article>
+
+        <article>
+            <img src="IMAGENESPARASEMSTRAL/notician5.jpg" alt="Noticia 5">
+            <h2>Incendiaron auto de jugador de Santos tras descenso</h2>
+            <p>Los hinchas del Santos vandalizaron autos tras el histórico descenso del equipo a la Serie B.</p>
+            <a href="https://www.atv.pe/noticia/incendiaron-auto-de-jugador-de-santos-tras-el-descenso?source=Internal&ref=Live+Latest+News">Sigue leyendo</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>Derechos de autor © 2023 Total Sport</p>
+    </footer>
+</body>
+</html>

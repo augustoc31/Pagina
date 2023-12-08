@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SOPORTE TSPORT</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('IMAGENESPARASEMSTRAL/fondoAY.jpg'); /* Reemplaza 'tu-imagen-de-fondo.jpg' con la ruta de tu imagen */
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+            background-position: center; /* Ajusta la posición de la imagen */
+            color: #0e0d0d; /* Color del texto sobre la imagen */
+        }
+
+        header {
+            background-color: #87f50985;
+            color: #fff;
+            text-align: center;
+            padding: 2em 0;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejorar la legibilidad del contenido */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Center text within the section */
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        h2 {
+            text-align: center; /* Center the h2 elements */
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            margin-top: 4px;
+            margin-bottom: 8px;
+            border: 1px solid #bbb7b7;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #f80a0a;
+            color: #fff;
+            cursor: pointer;
+        }
+
+
+
+
+        nav li {
+    margin-left: 15px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #5b6063cb;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #00506b;
+    border-bottom: 2px solid #00364a;
+}
+
+.dropdown button {
+    width: 150px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'calibri', sans-serif;
+}
+.contenedor p {
+    font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+
+.contenedor h2 {
+    font-size: 24px; /* Ajusta el tamaño de fuente según tus preferencias */
+}
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    font-family: 'Kalnia', sans-serif; /* Aplicamos la fuente a los títulos de segundo nivel */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(211, 204, 204, 0.644);
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ec0c0c9f;
+    color: white;
+}
+
+footer {
+    background-color: rgba(13, 51, 223, 0.349);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #ba0000;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid #ba0000;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    float: right; 
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.87);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: #fafafa;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #0c0c0c;
+}
+
+footer {
+   text-align: center;
+   padding: 1em 0;
+    background-color: rgba(10, 121, 212, 0.253);
+    color: #fff;
+        }
+    </style>
+    <title>Ayuda en Línea</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="IMAGENESPARASEMSTRAL/LOGO.png" width="150">
+        <h1>Bienvenido a soporte Total sport</h1>
+
+        <nav>
+            <div class="dropdown">
+                <button>INICIO</button>
+                <div class="dropdown-content">
+                    <a href="index.html">HOME</a>
+                    <a href="noticias.html">Noticias</a>
+                    <a href="tablita.html">Tabla de puntos</a>
+                    <a href="mapasw.html">Mapa Sitio Web</a>
+                   
+                    
+                    
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <h2>¿Cómo podemos ayudarte? </h2>
+        <h2>ó tu ayúdanos a mejorar!</h2>
+        <p>Por favor, completa el siguiente formulario:</p>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="masculino">Masculino</option>
+                <option value="femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="deporte">Deporte Favorito:</label>
+            <select id="deporte" name="deporte" required>
+                <option value="futbol">Fútbol</option>
+                <option value="beisbol">Béisbol</option>
+                <option value="baloncesto">Baloncesto</option>
+                <option value="tenis">Tenis</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Ayuda en Línea. Total Sport.</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa SW</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4
+            background-url('IMAGENESPARASEMSTRAL/fondo_mapsw.jpg'); /* con la ruta de tu imagen */
+            background: url('IMAGENESPARASEMSTRAL/fondo_mapsw.jpg') center center fixed;
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+           background-repeat: no-repeat; /* Evita la repetición de la imagen */
+           background-position: center center; /* Centra la imagen en el fondo */
+           overflow-x: hidden;
+}
+
+        
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #0febce59;
+            color: #fff;
+        }
+
+        section {
+            text-align: center;
+            margin: 20px;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+        }
+
+
+
+        nav {
+            margin-top: 20px;
+        }
+
+        .dropdown {
+            display: inline-block;
+        }
+
+        .dropdown button {
+            background-color: #000203bd;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.945);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            display: block;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-content a:hover {
+            background-color: rgba(3, 22, 73, 0.952)30, 219);
+            color: #fff;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            bottom: 0;
+            width: 100%;
+            background-color: #333333af;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mapa del Sitio</h1>
+        <nav>
+            <div class="dropdown">
+                <button>INICIO</button>
+                <div class="dropdown-content">
+                    <a href="index.html">Pagina principal</a>
+                    <a href="tablita.html">Tabla de puntos</a>
+                    <a href="noticias.html">Noticias</a>
+                    <a href="formulario_ayuda.html">Ayuda</a>
+                   
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <a href="index.html">
+            <img src="IMAGENESPARASEMSTRAL/Captur1.png" alt="Captura de Sección 1">
+        </a>
+    </section>
+
+    <section>
+        <a href="noticias.html">
+            <img src="IMAGENESPARASEMSTRAL/Captur2.png" alt="Captura de Sección 2">
+        </a>
+    </section>
+
+    <section>
+        <a href="tablita.html">
+            <img src="IMAGENESPARASEMSTRAL/Captur3.png" alt="Captura de Sección 3">
+        </a>
+    </section>
+
+    <section>
+        <a href="formulario_ayuda.html">
+            <img src="IMAGENESPARASEMSTRAL/Captur4.png" alt="Captura de Sección 4">
+        </a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Total Sport</p>
+    </footer>
+
+</body>
+</html>
