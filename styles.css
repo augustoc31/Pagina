@@ -40,9 +40,12 @@ h1 {
     font-family: 'Cinzel Decorative', sans-serif; /* Aplicamos la fuente al título principal */
 }
 
+
 img {
-    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
 }
+
 
 nav ul {
     list-style: none;
@@ -73,12 +76,16 @@ nav li {
     width: 150px;
 }
 
+
+
 .contenedor {
     max-width: 800px;
     margin: 20px auto;
     padding: 10px;
     font-family: 'calibri', sans-serif;
 }
+
+
 .contenedor p {
     font-size: 20px; /* Ajusta el tamaño de fuente según tus preferencias */
 }
