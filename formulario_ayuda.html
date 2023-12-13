@@ -149,7 +149,7 @@ a:hover {
 .dropdown {
     display: inline-block;
     position: relative;
-    float: right; 
+    float: left; 
 }
 
 .dropdown-content {
@@ -183,14 +183,16 @@ footer {
     color: #fff;
         }
     </style>
-    <title>Ayuda en Línea</title>
+    
+    
 </head>
 
 <body>
 
     <header>
-        <img src="IMAGENESPARASEMSTRAL/LOGO.png" width="150">
-        <h1>Bienvenido a soporte Total sport</h1>
+        <img src="IMAGENESPARASEMSTRAL/LOGO.png" width="150" alt="Logo">
+
+        <h1>Soporte Total sport</h1>
 
         <nav>
             <div class="dropdown">
@@ -221,23 +223,28 @@ footer {
             <input type="email" id="correo" name="correo" required>
 
             <label for="sexo">Sexo:</label>
-            <select id="sexo" name="sexo" required>
-                <option value="masculino">Masculino</option>
-                <option value="femenino">Femenino</option>
-                <option value="otro">Otro</option>
-            </select>
+            
+                <select id="sexo" name="sexo" required>
+                    <option value="" disabled selected>Selecciona tu género</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="femenino">Femenino</option>
+                    <option value="otro">Otro</option>
+                </select>
+            
 
             <label for="edad">Edad:</label>
             <input type="number" id="edad" name="edad" required>
 
             <label for="deporte">Deporte Favorito:</label>
             <select id="deporte" name="deporte" required>
+                <option value="" disabled selected>Selecciona tu deporte favorito</option>
                 <option value="futbol">Fútbol</option>
                 <option value="beisbol">Béisbol</option>
                 <option value="baloncesto">Baloncesto</option>
                 <option value="tenis">Tenis</option>
                 <option value="otro">Otro</option>
             </select>
+            
 
             <label for="comentarios">Comentarios:</label>
             <textarea id="comentarios" name="comentarios" rows="4" required></textarea>
